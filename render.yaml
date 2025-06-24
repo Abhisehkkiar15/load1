@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: supertg
+    name: load1
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/icryptoboss/supertg
+    repo: https://github.com/Abhisehkkiar15/load1
     branch: main
     autoDeploy: false
     envVars:
